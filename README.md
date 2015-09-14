@@ -1,6 +1,6 @@
 # jbvideo
 
 
-- These some formulas I gather while I was a video engineer.
+- These some formulas I gathered while I was video engineering...
 - Work in progress...
-
+- More to come.
