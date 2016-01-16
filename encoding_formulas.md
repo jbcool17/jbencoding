@@ -1,12 +1,14 @@
-##These some formulas I gather while I was a video engineer.
+##Collection of Formulas - Video/Audio
 - Work in progress...
 
 
-###Creates MP4 from SD Interlaced/or not source - with 2000k video, 192k audio - Deinterlacing
+###Creates MP4 from SD Interlaced/Progressive source - with 2000k video, 192k audio - w/Deinterlacing
 ```shell
 ffmpeg -i $INPUT -vb 2000k -pix_fmt yuv420p -ab 192k -vf "yadif=0:-1:0, scale=640:480" $OUTFILE.mp4
 ```
 
+###Creates MP4 
+- deinterlace if necessary
 - HD 1080 - 8000k
 - HD 720 - 5000k
 - SD 480 - 2000k
