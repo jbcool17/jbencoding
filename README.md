@@ -1,7 +1,7 @@
 # jbvideo
 
 
-- These some formulas/knowledge I gathered while I was video engineering...
+- Collection of Formulas - Video/Audio
 - Work in progress...
 - More to come.
 
@@ -13,6 +13,7 @@
 - Blackmagic Limit Capture
 - Sox
 - OpenDCP/DCP-O-mactic
+- testing
 
 
 ## Current/Future - Specs
