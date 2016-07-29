@@ -1,5 +1,4 @@
-# jbvideo
-
+# JB::ENCODE
 
 - Collection of Formulas - Video/Audio
 - Work in progress...
@@ -24,5 +23,3 @@
 - youtube-dl
 - moviepy
 
-
-### THIS IS A TEST FOR FORKING TO BITBUCKET...
