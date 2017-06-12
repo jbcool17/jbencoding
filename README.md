@@ -3,6 +3,7 @@
 - Collection of Formulas - Video/Audio
 - Work in progress...
 - More to come.
+- Bars & Tone Generator - BTGEN
 
 ## Possible  Guides/HOW TOs
 - Spec Sheets
