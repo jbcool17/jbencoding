@@ -5,6 +5,9 @@
 - More to come.
 - Bars & Tone Generator - BTGEN
 
+## AutoWaterMarker
+- python scripts that use moviepy & ffmpeg to randomly watermark and encode videos
+
 ## Possible  Guides/HOW TOs
 - Spec Sheets
 - Handling Closed Captioning?
@@ -15,9 +18,8 @@
 - OpenDCP/DCP-O-mactic
 - testing
 
-
 ## Current/Future - Specs
-- ffmpeg 
+- ffmpeg
 - ffmbc
 - libav?
 - sox
