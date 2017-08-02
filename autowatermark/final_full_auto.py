@@ -7,6 +7,9 @@ import lib.chapters as chapters
 import lib.sdtools as sdtools
 import lib.utilities as utilities
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 # Benchmarks
 start = datetime.datetime.now()
 
