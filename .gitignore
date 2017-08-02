@@ -2,3 +2,6 @@
 *.wav
 *.pyc
 *.txt
+
+LOG/
+OUTPUT/
