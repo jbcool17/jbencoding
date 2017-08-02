@@ -1,6 +1,5 @@
 # SingleVideo Sequential Watermarker
 - processes a single video with sequential numbers placed randomly throughout video
-- Not yet fully operational - might run into a few bugs on different systems
 
 ## Requirements / Notes
 - moviepy

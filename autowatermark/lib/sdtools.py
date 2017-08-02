@@ -1,12 +1,12 @@
 import os
 
-def detection(full_file_name,name_noext):
-    scene_detection = "ffmpeg -i %s -filter:v \"select='gt(scene,0.2)',showinfo\" -f null - 2> %s_ffout" % (full_file_name,name_noext)
+def detection(full_file_name,ffout_log):
+    scene_detection = "ffmpeg -i %s -filter:v \"select='gt(scene,0.2)',showinfo\" -f null - 2> %s" % (full_file_name,ffout_log)
     os.system(scene_detection)
 
 
-def parse_timestamps(name_noext):
-    parse_timestamps = "grep showinfo %s_ffout | grep pts_time:[0-9.]* -o | grep '[0-9]*\.[0-9]*' -o > %s_timestamps" % (name_noext,name_noext)
+def parse_timestamps(ffout_log,timestamps_log):
+    parse_timestamps = "grep showinfo %s | grep pts_time:[0-9.]* -o | grep '[0-9]*\.[0-9]*' -o > %s" % (ffout_log,timestamps_log)
     os.system(parse_timestamps)
 
 def set_time(pt, cti, name, ts_num):
