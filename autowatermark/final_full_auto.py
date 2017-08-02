@@ -158,48 +158,48 @@ while c < (total_videos + 1):
 
     # 01 Create TEXT STEP
     # small text 1 frame - pop on
-    stc1 = (TextClip(str(number),fontsize=sfs,color='white')
+    stc1 = (TextClip(str(number),fontsize=sfs,font='Arial',color='white')
                  .set_pos((slx1, sly1))
                  .set_duration(strt))
 
     # big text 101 - for a duration :15
-    btc1 = (TextClip(str(number),fontsize=bfs,color='white').set_pos((blx1, bly1))).set_duration(15)
+    btc1 = (TextClip(str(number),fontsize=bfs,font='Arial',color='white').set_pos((blx1, bly1))).set_duration(15)
 
     # 02 Create TEXT STEP
     # small text 1 frame - pop on
-    stc2 = (TextClip(str(number),fontsize=sfs,color='white')
+    stc2 = (TextClip(str(number),fontsize=sfs,font='Arial',color='white')
                  .set_pos((slx2, sly2))
                  .set_duration(strt))
 
     # big text 101 - for a duration :15
-    btc2 = (TextClip(str(number),fontsize=bfs,color='white').set_pos((blx2, bly2))).set_duration(15)
+    btc2 = (TextClip(str(number),fontsize=bfs,font='Arial',color='white').set_pos((blx2, bly2))).set_duration(15)
 
     # 03 Create TEXT STEP
     # small text 1 frame - pop on
-    stc3 = (TextClip(str(number),fontsize=sfs,color='white')
+    stc3 = (TextClip(str(number),fontsize=sfs,font='Arial',color='white')
                  .set_pos((slx3, sly3))
                  .set_duration(strt))
 
     # big text 101 - for a duration :15
-    btc3 = (TextClip(str(number),fontsize=bfs,color='white').set_pos((blx3, bly3))).set_duration(15)
+    btc3 = (TextClip(str(number),fontsize=bfs,font='Arial',color='white').set_pos((blx3, bly3))).set_duration(15)
 
     # 04 Create TEXT STEP
     # small text 1 frame - pop on
-    stc4 = (TextClip(str(number),fontsize=sfs,color='white')
+    stc4 = (TextClip(str(number),fontsize=sfs,font='Arial',color='white')
                  .set_pos((slx4, sly4))
                  .set_duration(strt))
 
     # big text 101 - for a duration :15
-    btc4 = (TextClip(str(number),fontsize=bfs,color='white').set_pos((blx4, bly4))).set_duration(15)
+    btc4 = (TextClip(str(number),fontsize=bfs,font='Arial',color='white').set_pos((blx4, bly4))).set_duration(15)
 
     # 05 Create TEXT STEP
     # small text 1 frame - pop on
-    stc5 = (TextClip(str(number),fontsize=sfs,color='white')
+    stc5 = (TextClip(str(number),fontsize=sfs,font='Arial',color='white')
                  .set_pos((slx5, sly5))
                  .set_duration(strt))
 
     # big text 101 - for a duration :15
-    btc5 = (TextClip(str(number),fontsize=bfs,color='white').set_pos((blx5, bly5))).set_duration(15)
+    btc5 = (TextClip(str(number),fontsize=bfs,font='Arial',color='white').set_pos((blx5, bly5))).set_duration(15)
 
     # Composite Clips and Text numbers together. Fadein & Fadeout w/crossfade
     # GET START time based scene detection for 5 evenly spaced points
